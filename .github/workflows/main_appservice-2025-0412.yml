@@ -69,6 +69,5 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'appservice-2025-0412'
-          slot-name: 'Production'
           package: .
           
